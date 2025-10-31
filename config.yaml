@@ -1,0 +1,24 @@
+# config.yaml
+
+proj_dir: '/projects/'
+annotations_dir: '/annotations/'
+
+cvat:
+  username: 'admin'
+  password: 'cvat_password'
+  host: 'http://10.10.15.36'
+  port: '8080'
+  annotation_format: 'Datumaro 1.0'
+  project_id: 2
+  project_name: 'EUS'
+  task_ids_to_skip: []
+
+email_params:
+  smtp_server: 'smtp-mail.outlook.com'
+  sender: 'sender@company.com'
+  destination: 'destination@company.com'
+  cc: ['cc1@company.com', 'cc2@company.com', 'cc3@company.com']
+  port: 587
+  username: 'sender@company.com'
+  password: 'email_password'
+
