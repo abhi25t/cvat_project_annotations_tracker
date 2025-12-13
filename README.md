@@ -68,4 +68,4 @@ email_params:
   cc: ['manager1@company.com', 'manager2@company.com']
   port: 587
   username: 'sender@company.com'
-  password: 'your_email_password'
+  password: 'sender_email_password'
